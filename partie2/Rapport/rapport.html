@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" rel="stylesheet" />
+    <title>Rapport TP1</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--  navbar-dark bg-dark  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <div
+          class="collapse navbar-collapse justify-content-md-center"
+          id="navbarsExample10"
+        >
+          <h2>IFT3911 - Rapport DM2</h2>
+        </div>
+      </nav>
+
+      <!--Main Layout-->
+      <br />
+      <h3>Information générale</h3>
+      <br />
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead class="bg-dark text-light">
+            <tr>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Matricule</th>
+              <th>Courriel</th>
+              <th>Temps mis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hajouji Idrissi</td>
+              <td>Yassine</td>
+              <td>20038060</td>
+              <td>yassine.hajouji.idrissi@umontreal.ca</td>
+              <td>environ 10h</td>
+            </tr>
+            <tr>
+              <td>Manseur</td>
+              <td>Abderrahmane</td>
+              <td>20148685</td>
+              <td>abderrahmane.manseur@umontreal.ca</td>
+              <td>environ 10h</td>
+            </tr>
+
+            <tr>
+              <td>Réunion hebdomadaire</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>8h</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+              <td>Total d’heures allouée</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>28h</td>
+            </tr>
+          </tbody>
+        </table>
+        <h6>Remise du DM2 : Yassine Hajouji Idrissi</h6>
+      </div>
+      <br />
+      <h3>Distribution des tâches</h3>
+      <br />
+      <!-- <div class="table-responsive">
+        <p>
+          Chaque membre de l’équipe a mis environ 6h de son temps chez soi, à
+          analyser le projet.
+        </p>
+        <p>
+          Les réunions hebdomadaires nous permettaient de débattre nos points de
+          vu de notre compréhension du cours et du projet. Ce qui nous a permis
+          de travailler ensemble sur tous les points du projet.
+        </p>
+        <p>
+          Ainsi chaque membre de l’équipe a pu jouer un rôle et intervenir dans
+          chaque tâche du projet.
+        </p>
+      </div> -->
+
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead class="bg-dark text-light">
+            <tr>
+              <th rowspan="2" scope="rowgroup">Tâches</th>
+              <th colspan="2" scope="colgroup">Yassine Hajouji Idrissi</th>
+              <th colspan="2">Abderrahmane Manseur</th>
+            </tr>
+            <tr>
+              <th scope="col">Conception</th>
+              <th scope="col">Révision</th>
+              <th scope="col">Conception</th>
+              <th scope="col">Révision</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td bgcolor="CCCCCC">.:: Réseau de Pétri ::.</td>
+            </tr>
+            <tr>
+              <td>Modélisation du réseau de Pétri</td>
+              <td class="text-center">40%</td>
+              <td class="text-center">60%</td>
+              <td class="text-center">60%</td>
+              <td class="text-center">40%</td>
+            </tr>
+            <tr>
+              <td>Analyse du réseau de Pétri</td>
+              <td class="text-center">40%</td>
+              <td class="text-center">60%</td>
+              <td class="text-center">60%</td>
+              <td class="text-center">40%</td>
+            </tr>
+
+            <tr>
+              <td bgcolor="CCCCCC">.:: Statechart ::.</td>
+            </tr>
+            <tr>
+              <td>Modélisation du Statechart</td>
+              <td class="text-center">60%</td>
+              <td class="text-center">40%</td>
+              <td class="text-center">40%</td>
+              <td class="text-center">60%</td>
+            </tr>
+            <tr>
+              <td>Génération du code et application fonctionnelle</td>
+              <td class="text-center">60%</td>
+              <td class="text-center">40%</td>
+              <td class="text-center">40%</td>
+              <td class="text-center">60%</td>
+            </tr>
+
+            <tr>
+              <td bgcolor="CCCCCC">.:: Design logiciel ::.</td>
+            </tr>
+            <tr>
+              <td>Révision du diagramme de classe</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>Révision des diagrammes de séquence ou de collaboration</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>Révision du diagramme de paquets</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>Révision des contraintes OCL</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>Identification des modules réutilisables</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+
+            <tr>
+              <td bgcolor="CCCCCC">.:: Qualité du design ::.</td>
+            </tr>
+            <tr>
+              <td>Discussion du couplage et de la cohésion des modules</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>Discussion du fardeau des classes</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>Graphe IA et justification</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+            <tr>
+              <td>
+                Justification de l'application des principes de conception
+              </td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+              <td class="text-center">50%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <br />
+
+      <br />
+      <h3>Tâche 1 : Réseau de Pétri</h3>
+      <br />
+      <div class="table-responsive">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">Modélisation du réseau de Pétri</div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/rpetri.png"
+              class="img-fluid"
+              alt="Diagramme de classe conceptuel"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">Analyse du réseau de Pétri</div>
+          <div class="card-body align-items-center" style="text-align: left">
+            <p>
+              D'après la loi de conservation, en tout temps: M(feuMontreal) +
+              M(feuRiveSud) = 1, donc il ne peut y avoir qu'une seule voiture
+              qui traverse le tunnel à la fois pour se retrouver à la sortie vue
+              que les transitions T3 et T0 ne sont pas franchissable en même
+              temps.
+            </p>
+            <p>
+              On remarque qu’il n'y a pas de gamma dans le graphe de couverture,
+              il est identique au graphe d'accessibilité, ce qui conclue que le
+              réseau de pétri est borné et sans interblocage et donc est
+              forcément équitable.
+            </p>
+            <p>
+              Un réseau de pétri équitable permet à toutes les transitions
+              d'être franchie équitablement donc il n'y aura jamais une
+              transition qui sera négligée ce qui peux nous permettre de déduire
+              qu'il n'a pas de famine.
+            </p>
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/analyse_rpetri.png"
+              class="img-fluid"
+              alt="Diagramme de classe conceptuel"
+            />
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <h3>Tâche 2 : Statechart</h3>
+      <br />
+      <div class="table-responsive">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">Modélisation du Statechart</div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/microwave.png"
+              class="img-fluid"
+              alt="Diagramme de classe conceptuel"
+            />
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Génération du code et application fonctionnelle
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <p>Voir le projet Microwave dans le dossier Statechart</p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <h3>Tâche 3 : Design logiciel</h3>
+      <br />
+      <div class="table-responsive">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Diagramme de classe (voir le projet IFT3911_DM2.vpp pour plus de
+            visibilité, ou ouvrir l'mage dans un nouvel onglet)
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/dc.png"
+              class="img-fluid"
+              alt="Diagramme de classe conceptuel"
+            />
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Diagrammes de séquence : vérifier les Voyages aeriens disponibles
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/vvad.png"
+              class="img-fluid"
+              alt="Diagrammes de séquence"
+            />
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Diagrammes de séquence : vérifier les Voyages ferroviaires
+            disponibles
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/vvfd.png"
+              class="img-fluid"
+              alt="Diagrammes de séquence"
+            />
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Diagrammes de séquence : vérifier les Voyages navals disponibles
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/vvnd.png"
+              class="img-fluid"
+              alt="Diagrammes de séquence"
+            />
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Diagrammes de séquence : reserver un siège
+          </div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/reserverunsiège.png"
+              class="img-fluid"
+              alt="Diagrammes de séquence"
+            />
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">Diagrammes de séquence : payer un siège</div>
+          <div class="card-body align-items-center" style="text-align: center">
+            <img
+              src="images/payerunsiège.png"
+              class="img-fluid"
+              alt="Diagrammes de séquence"
+            />
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">Diagramme de paquets</div>
+            <div
+              class="card-body align-items-center"
+              style="text-align: center"
+            >
+              <img
+                src="images/dpackage.png"
+                class="img-fluid"
+                alt="Diagramme de classe conceptuel"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">Contraintes OCL</div>
+            <div
+              class="card-body align-items-baseline"
+              style="text-align: left"
+            >
+              <div class="table-responsive">
+                <h6>
+                  1.1.1 Un aéroport est identifié par trois lettres uniques à
+                  chaque aéroport
+                </h6>
+                <p>
+                  context Aeroport <br />
+                  inv: self.ID.size() = 3
+                </p>
+                <p>
+                  context Aeroport<br />
+                  inv: Aeroport.allinstances() -> isUnique(ID)
+                </p>
+                <h6>
+                  1.1.3 La partie alphabétique de l'ID d'un vol est unique à
+                  chaque compagnie et la partie numérique est unique à chaque
+                  vol au sein de la même compagnie.
+                </h6>
+                <p>
+                  context Vol<br />
+                  inv: Vol.allinstances() -> forAll(v1, v2 : Vol | v1.compagnie
+                  <> v2.compagnie and v1 <> v2 implies v1.ID.substring(2,
+                  ID.size()) <> v2.ID.substring(2, ID.size()))<br />
+                  context CompagnieAerienne<br />
+                  inv: self.vols -> forAll(isUnique(ID.substring(0,2)))
+                </p>
+                <h6>
+                  1.1.3 L'aéroport de départ et d'arrivée d'un vol doit être
+                  différent
+                </h6>
+                <p>
+                  context Vol<br />
+                  inv: self.terminaleOrigine <> self.terminaleDestination
+                </p>
+
+                <h6>
+                  1.1.5 Tous les sièges d'une même section ont le même prix
+                </h6>
+                <p>
+                  context Vol<br />
+                  inv: self.sieges -> forAll(s1, s2 : Siege | s1.section =
+                  s2.section and s1 <> s2 implies s1.prix = s2.prix)
+                </p>
+
+                <h6>
+                  1.2.1 Un port est identifié par trois lettres uniques à chaque
+                  port
+                </h6>
+                <p>
+                  context Port<br />
+                  inv : Port.allinstances() -> isUnique(ID)
+                </p>
+
+                <h6>1.2.3 Un itinéraire ne peut pas durer plus de 21 jours</h6>
+                <p>
+                  context Itineraire <br />
+                  inv: self.dateDepart - self.dateDepart <= 21
+                </p>
+
+                <h6>1.2.3 Le port de départ et d'arrivée doit être le même</h6>
+                <p>
+                  context Compagnie inv:<br />
+                  self.voyages-> forAll(terminaleOrigine = terminaleDestination)
+                </p>
+
+                <h6>
+                  1.2.3 Un paquebot peut être assigné à plusieurs itinéraires
+                  tant qu'ils ne se chevauchent pas
+                </h6>
+                <p>
+                  context Itineraire<br />
+                  inv : Itinenaire.allinstances() -> forAll(i1, i2 : Itinenaire
+                  | i1 <> i2 implies i1.terminaleOrigine <> i2.terminaleOrigine)
+                </p>
+
+                <h6>
+                  1.2.6 Toutes les cabines d'une même section ont le même prix
+                </h6>
+                <p>
+                  context Itinenaire<br />
+                  inv: self.cabines -> forAll(c1, c2 : Cabine | c1.section =
+                  c2.section and c1 <> c2 implies c1.prix = c2.prix)
+                </p>
+
+                <h6>
+                  1.3.1 Une gare est identifiée par trois lettres uniques à
+                  chaque gare
+                </h6>
+                <p>
+                  context Gare <br />
+                  inv:self.ID.size() = 3<br />
+                  context Gare<br />
+                  inv:Gare.allinstances() -> isUnique(ID)
+                </p>
+
+                <h6>
+                  2.1.2 Le client peut réserver un siège disponible dans un vol
+                  (ligne) donné
+                </h6>
+                <p>
+                  context GestionnaireVoyage :: reserver()<br />
+                  Pre : siege.statut = "disponible"<br />
+                  Post : siege.statut = "réservé"
+                </p>
+
+                <h6>
+                  2.1.3 Un siège réservé devient assigné à un passager une fois
+                  payé: le siège est donc confirmé
+                </h6>
+                <p>
+                  context GestionnaireVoyage :: payerReservation(numReservation
+                  : int)<br />
+                  Pre : self.reservation.numReservation = numReservation<br />
+                  Post : place.statut = "confirmé"
+                </p>
+
+                <h6>
+                  2.2.2 Le client peut réserver une cabine disponible pour un
+                  itinéraire donné
+                </h6>
+                <p>
+                  context GestionnaireVoyage :: reserver()<br />
+                  Pre : cabine.statut = "disponible"<br />
+                  Post : cabine.statut = "réservé"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Identification des modules réutilisables
+          </div>
+          <div class="card-body align-items-center" style="text-align: left">
+            <p>
+              Les modules les plus susceptibles d'être réutilisées sont ceux
+              qu'on identifie à partir du calcul de leur fardeau (mesure la
+              distance d'une classe au domaine de fondation) :
+            </p>
+            <p>
+              l'interface Gestionnaire : ne fait référence a aucune classe, très
+              générale<br /><br />
+              les classes suivante sont en bas de notre diagramme: <br /><br />
+              Siege<br />
+              Cabine<br />
+              Section<br />
+              Aeroport<br />
+              Port<br />
+              Gare<br />
+              Vol<br />
+              itinéraire<br />
+              Trajet
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <h3>Tâche 4 : Qualité du design</h3>
+      <br />
+      <div class="table-responsive">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            Discussion du couplage et de la cohésion des modules & Justification
+            de l'application des principes de conception
+          </div>
+          <div class="card-body align-items-center" style="text-align: left">
+            <p>
+              Notre design est essentielement basée sur des modules
+              gestionnaires, chacun de ces derniers a une seule résponsasbilite
+              crée supprimer et modifier le module qu'il gère. Ce qui procure
+              une cohésion maximale de chacun d'eux. Ils sont couplée uniquement
+              a la classes gérer. On retrouve ici un couplage par paquet vu que
+              les gestionnaire contiennent le module gérer sans utiliser tout
+              les données et on retrouve une cohesion communicationnelle vu que
+              le gestionnaire accede a la même donnée.<br />
+              -La séparation des classes de gestion qui contenaient la liste des
+              terminales et des compagnies a permis également de ne pas donner
+              au client l'accés aux informations sur les compagnies qui peuvent
+              etre des données sensibles.<br />
+              -Plusieurs classes de gestion ont été crée pour séparer le tout et
+              que chaque classe ai une seule information et un seul objectif, ce
+              qui augmente la cohesion, reduis le couplage, limite les dégat en
+              cas de faille de la sécuriter,et respecte le SSR.<br />
+              -On à essayer de maximiser les classes abstraites pour respecter
+              le OCP, et permettre des extensions au cas où on voudrais ajouter
+              d'autre moyen de transport par exemple.<br />
+              -Les gestionnaires implémentent tous l'interface Gestionnaire qui
+              peut etre réutiliser pour de futur extension du logiciel.<br />
+              -On a également essayer de maximiser le DIP mais cependant nos
+              paquets ne sont pas trés abstrait comme le montre le graphe IA,
+              nous avons voulu créer un design plus rigide mais plus cohesive
+              car cela ne sert a rien de créer des abstraction a tort et à
+              travers. <br />
+              -Cependant les paquet sont assez stable dans l'ensemble un seul
+              cycle est present dans le design et uniquement au niveau de 2
+              classe ce qui n'est pas trés mauvais.<br />
+              -Au début la classe Client fesais le travail de réserver,
+              consulter, et payer mais on sais rendu compte que la classe
+              devenais pas du tout cohésive car cette classe devrais juste
+              contenir l'information du client et démarrer la requete du client
+              connecter. C'est pour cela que l'on a crée une classe specifique
+              pour chaque opération. Aisni permettre la réutilisiation et
+              respecter le SSR.<br />
+              -La seule classe qui reste un peu trop couplée c'est l'admin mais
+              au moins chaque opération est lier directement a ce que l'admin
+              veut faire. <br />
+              -Du coté du client, cest la classe GestionVoyage qui joue le role
+              de créateur, elle prépare le terrain pour toutes les opérations
+              que va effectuer le client.<br />
+              -La classe Consultation contient les listes des terminaux qui
+              seront choisient par le client. Ces listes sont mis a jour par le
+              biais des gestionnaires, a travers la classe GestionVoyage. Ce
+              choix nous permet de limiter l'accés du client a des donnée
+              limiter a l'admin. Cette dernière joue le role d'expert
+              d'informations pour le client.<br />
+              -Le LSP a été respecter au maximum, chaque methode appele un type
+              en particulier pour .viter de faire du conditionnelle sur les
+              types. OCP bien respecter ici. <br />
+              -On note une absence de CRP car on a préferer plutot utiliser le
+              DIP et donc utliser de l'héritage pour dependre des classes
+              abstraites.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">Fardeau des classes</div>
+          <div class="card-body align-items-center" style="text-align: left">
+            <p>
+              En ce qui concerne le fardeau des classes, on remarque qu’elles ne
+              sont pas toutes très couplées, et sont assez stable car la plupart
+              des modules se trouve en bas de l'arborescence.<br />
+              Les modules les plus générales se retrouveront en bas alors que
+              les plus particulier à l'application seront en haut comme l'admin
+              ou le client, même si le client en sois est pas très couplée mais
+              il est lié à la classe gestionnaireVoyage qui elle possède un
+              grand fardeau.
+            </p>
+            <p>
+              F(String) = 0<br />
+              F(int) = 0<br />
+              F(Char) = 0<br />
+              f(double) = 0<br />
+              <br />
+              F(Section) = {char, double} = 2<br />
+              F(Siege) = {String, int, Place, Section} = 4<br />
+              F(cabine) = {String, int, Place, Section} = 4<br />
+              F(Place) = {Section, int, String, double, Client, NumReservation}
+              = 6<br />
+              <br />
+
+              F(Vol) = (char, String, Voyage) = 3<br />
+              F(Itineraire) = {char, Voyage} = 2<br />
+              F(Trajet) = {char, String, Gare} = 3<br />
+              <br />
+              F(voyage) = {String, char, Place, Compagnie, Terminale, Date,
+              Time} = 7<br />
+              F(Terminale) = {String, Voyage} = 2<br />
+              F(Aeroport) = {String, Terminale, Voyage} = 3<br />
+              F(Port) = {String, Terminale, Voyage} = 3<br />
+              F(Gare) = {String, Terminale, Voyage} = 3<br />
+              <br />
+
+              F(CompanieAerienne) = {String, double, Compagnie, Voyage, Place,
+              Date, Time} = 7<br />
+              F(CompanieCroisiere) = {String, double, Compagnie, Voyage, Place,
+              Date, Time} = 7<br />
+              F(LigneDeTrain) = {String, double, Compagnie, Voyage, Place, Date,
+              Time} = 7<br />
+              <br />
+              F(Reservation) = {int, Place} = 7<br />
+              F(Consultation) = {String, Aeroport, Port, Gare} = 10<br />
+              F(Paiement) = {Reservation, double} = 8<br />
+              <br />
+              F(GestionnaireTerminale) = {String, Terminale, Consultation,
+              Aeroport, Port, Gare} = 12<br />
+              F(GestionnaireCompagnie) = {String, double, CompanieAerienne,
+              CompanieCroisiere, LigneDeTrain, voyage, Terminale} = 32<br />
+              F(GestionnaireVoyage) = {consultation, reservation, paiement, int,
+              place} = 32<br />
+              <br />
+              F(Client) = {String, int, GestionnaireVoyage} = 34<br />
+              F(Admin) = {GestionnaireCompagnie, GestionnaireTerminale} = 44
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">Graphe IA et justification</div>
+          <div class="card-body align-items-center" style="text-align: left">
+            <img
+              src="images/graphai.png"
+              class="img-fluid"
+              alt="Diagramme de classe conceptuel"
+            />
+            <h4>Justification</h4>
+            <p>
+              Le graphe obtenu montre un niveau d'abstraction des paquet assez
+              bas mais un niveau de stabilité correct en moyenne, Le niveau
+              d'abstraction bas proviens du fait que les paquets ne contiennent
+              pas suffisamment de classes abstraites, les classes concrètes
+              étant en majorité.<br />
+              La stabilité quant à elle proviens du fait que les classes dans
+              les paquets en majorité ne sont pas fortement couplée et ne
+              dépendent pas de beaucoup d'autres classes dans d'autre paquet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <!-- script
+    -->
+    <script></script>
+  </body>
+</html>
