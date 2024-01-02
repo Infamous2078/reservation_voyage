@@ -1,0 +1,5 @@
+Le programme s'exécute normalement en compilant et en executant le fichier MenuPrincipale qui contient la méthode main().
+Un fichier input.txt est présent le dossier src, il dois toujours étre placer dans le même dossier que les paquets, il contient des inputs qui sont lue et exécuter au début du programme pour ajouter 3 vols à l'éxecution du programme.
+Par défaut, le mot de passe pour se connecter à l'admin est "a" pour permettre d'ajouter les vols. Le mot de passe n'est pas modifiable par la suite.
+Si le fichier input.txt est introuvable à cause d'un chamgement de path, changez le path à la ligne 18 du fichier MenuPrincipale.
+Pour utiliser le programme, simplement suivre les instructions sur la console et rentrer les réponse demandée, ca devrais être assez facile. Bonne gestion de voyages!
